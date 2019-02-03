@@ -12,3 +12,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.OpenBook {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3;
+  justify-content: center;
+}
